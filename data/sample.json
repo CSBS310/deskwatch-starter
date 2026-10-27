@@ -1,0 +1,185 @@
+{
+  "workers": [
+    {
+      "id": "w01",
+      "name": "Priya",
+      "maxHoursPerWeek": 10,
+      "availability": [
+        {"day": "Mon", "start": "08:00", "end": "14:00"},
+        {"day": "Wed", "start": "08:00", "end": "14:00"},
+        {"day": "Thu", "start": "12:00", "end": "14:00"},
+        {"day": "Fri", "start": "08:00", "end": "12:00"}
+      ]
+    },
+    {
+      "id": "w02",
+      "name": "Theo",
+      "maxHoursPerWeek": 8,
+      "availability": [
+        {"day": "Mon", "start": "10:00", "end": "14:00"},
+        {"day": "Thu", "start": "14:00", "end": "18:00"}
+      ]
+    },
+    {
+      "id": "w03",
+      "name": "Marisol",
+      "maxHoursPerWeek": 12,
+      "availability": [
+        {"day": "Tue", "start": "08:00", "end": "18:00"},
+        {"day": "Thu", "start": "08:00", "end": "18:00"}
+      ]
+    },
+    {
+      "id": "w04",
+      "name": "Dev",
+      "maxHoursPerWeek": 6,
+      "availability": [
+        {"day": "Mon", "start": "14:00", "end": "18:00"},
+        {"day": "Wed", "start": "14:00", "end": "18:00"}
+      ]
+    },
+    {
+      "id": "w05",
+      "name": "Hana",
+      "maxHoursPerWeek": 8,
+      "availability": [
+        {"day": "Mon", "start": "10:00", "end": "14:00"},
+        {"day": "Tue", "start": "10:00", "end": "14:00"},
+        {"day": "Wed", "start": "10:00", "end": "14:00"},
+        {"day": "Thu", "start": "10:00", "end": "16:00"},
+        {"day": "Fri", "start": "10:00", "end": "14:00"}
+      ]
+    },
+    {
+      "id": "w06",
+      "name": "Caleb",
+      "maxHoursPerWeek": 8,
+      "availability": [
+        {"day": "Mon", "start": "08:00", "end": "12:00"},
+        {"day": "Tue", "start": "14:00", "end": "18:00"},
+        {"day": "Fri", "start": "14:00", "end": "18:00"}
+      ]
+    },
+    {
+      "id": "w07",
+      "name": "Rosa",
+      "maxHoursPerWeek": 10,
+      "availability": [
+        {"day": "Mon", "start": "10:00", "end": "14:00"},
+        {"day": "Tue", "start": "10:00", "end": "14:00"},
+        {"day": "Wed", "start": "08:00", "end": "14:00"},
+        {"day": "Thu", "start": "08:00", "end": "14:00"}
+      ]
+    },
+    {
+      "id": "w08",
+      "name": "Jun",
+      "maxHoursPerWeek": 6,
+      "availability": [
+        {"day": "Wed", "start": "14:00", "end": "18:00"},
+        {"day": "Fri", "start": "08:00", "end": "12:00"}
+      ]
+    },
+    {
+      "id": "w09",
+      "name": "Ellis",
+      "maxHoursPerWeek": 12,
+      "availability": [
+        {"day": "Mon", "start": "08:00", "end": "14:00"},
+        {"day": "Wed", "start": "08:00", "end": "18:00"}
+      ]
+    },
+    {
+      "id": "w10",
+      "name": "Noor",
+      "maxHoursPerWeek": 8,
+      "availability": [
+        {"day": "Tue", "start": "08:00", "end": "14:00"},
+        {"day": "Thu", "start": "14:00", "end": "18:00"}
+      ]
+    },
+    {
+      "id": "w11",
+      "name": "Tomas",
+      "maxHoursPerWeek": 10,
+      "availability": [
+        {"day": "Tue", "start": "12:00", "end": "18:00"},
+        {"day": "Thu", "start": "12:00", "end": "18:00"},
+        {"day": "Fri", "start": "12:00", "end": "16:00"}
+      ]
+    },
+    {
+      "id": "w12",
+      "name": "Wren",
+      "maxHoursPerWeek": 6,
+      "availability": [
+        {"day": "Fri", "start": "10:00", "end": "14:00"}
+      ]
+    }
+  ],
+  "shifts": [
+    {"id": "Mon-08", "day": "Mon", "start": "08:00", "end": "10:00", "requiredStaff": 1},
+    {"id": "Mon-10", "day": "Mon", "start": "10:00", "end": "12:00", "requiredStaff": 2},
+    {"id": "Mon-12", "day": "Mon", "start": "12:00", "end": "14:00", "requiredStaff": 2},
+    {"id": "Mon-14", "day": "Mon", "start": "14:00", "end": "16:00", "requiredStaff": 1},
+    {"id": "Mon-16", "day": "Mon", "start": "16:00", "end": "18:00", "requiredStaff": 1},
+    {"id": "Tue-08", "day": "Tue", "start": "08:00", "end": "10:00", "requiredStaff": 1},
+    {"id": "Tue-10", "day": "Tue", "start": "10:00", "end": "12:00", "requiredStaff": 2},
+    {"id": "Tue-12", "day": "Tue", "start": "12:00", "end": "14:00", "requiredStaff": 2},
+    {"id": "Tue-14", "day": "Tue", "start": "14:00", "end": "16:00", "requiredStaff": 1},
+    {"id": "Tue-16", "day": "Tue", "start": "16:00", "end": "18:00", "requiredStaff": 1},
+    {"id": "Wed-08", "day": "Wed", "start": "08:00", "end": "10:00", "requiredStaff": 1},
+    {"id": "Wed-10", "day": "Wed", "start": "10:00", "end": "12:00", "requiredStaff": 2},
+    {"id": "Wed-12", "day": "Wed", "start": "12:00", "end": "14:00", "requiredStaff": 2},
+    {"id": "Wed-14", "day": "Wed", "start": "14:00", "end": "16:00", "requiredStaff": 1},
+    {"id": "Wed-16", "day": "Wed", "start": "16:00", "end": "18:00", "requiredStaff": 1},
+    {"id": "Thu-08", "day": "Thu", "start": "08:00", "end": "10:00", "requiredStaff": 1},
+    {"id": "Thu-10", "day": "Thu", "start": "10:00", "end": "12:00", "requiredStaff": 2},
+    {"id": "Thu-12", "day": "Thu", "start": "12:00", "end": "14:00", "requiredStaff": 2},
+    {"id": "Thu-14", "day": "Thu", "start": "14:00", "end": "16:00", "requiredStaff": 1},
+    {"id": "Thu-16", "day": "Thu", "start": "16:00", "end": "18:00", "requiredStaff": 1},
+    {"id": "Fri-08", "day": "Fri", "start": "08:00", "end": "10:00", "requiredStaff": 1},
+    {"id": "Fri-10", "day": "Fri", "start": "10:00", "end": "12:00", "requiredStaff": 2},
+    {"id": "Fri-12", "day": "Fri", "start": "12:00", "end": "14:00", "requiredStaff": 2},
+    {"id": "Fri-14", "day": "Fri", "start": "14:00", "end": "16:00", "requiredStaff": 1},
+    {"id": "Fri-16", "day": "Fri", "start": "16:00", "end": "18:00", "requiredStaff": 1}
+  ],
+  "assignments": [
+    {"shiftId": "Mon-08", "workerId": "w06", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Mon-10", "workerId": "w02", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Mon-10", "workerId": "w09", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Mon-12", "workerId": "w01", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Mon-12", "workerId": "w07", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Mon-14", "workerId": "w04", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Tue-08", "workerId": "w10", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Tue-10", "workerId": "w03", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Tue-10", "workerId": "w05", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Tue-12", "workerId": "w11", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Tue-12", "workerId": "w10", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Tue-14", "workerId": "w06", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Tue-16", "workerId": "w11", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Wed-08", "workerId": "w09", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Wed-10", "workerId": "w01", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Wed-10", "workerId": "w07", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Wed-12", "workerId": "w05", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Wed-12", "workerId": "w09", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Wed-14", "workerId": "w08", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Wed-16", "workerId": "w04", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Thu-08", "workerId": "w03", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Thu-10", "workerId": "w07", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Thu-10", "workerId": "w05", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Thu-12", "workerId": "w11", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Thu-12", "workerId": "w01", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Thu-14", "workerId": "w02", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Thu-16", "workerId": "w10", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Fri-08", "workerId": "w08", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Fri-10", "workerId": "w12", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Fri-10", "workerId": "w12", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Fri-12", "workerId": "w11", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Fri-12", "workerId": "w05", "weekOf": "2026-11-16", "source": "auto"},
+    {"shiftId": "Fri-14", "workerId": "w06", "weekOf": "2026-11-16", "source": "auto"}
+  ],
+  "swaps": [
+    {"id": "sw01", "weekOf": "2026-11-16", "shiftId": "Mon-12", "fromWorkerId": "w01", "toWorkerId": "w05", "status": "pending"}
+  ]
+}

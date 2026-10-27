@@ -1,0 +1,26 @@
+# Continuous integration: runs on every push and every pull request.
+# The three jobs are the three checks you run locally with `npm run check`.
+# A red X on a pull request means one of these failed -- open the job log to see which.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Type check
+        run: npm run typecheck
+      - name: Lint
+        run: npm run lint
+      - name: Tests with coverage
+        run: npm run coverage
