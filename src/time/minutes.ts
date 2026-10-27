@@ -48,9 +48,9 @@ export function hoursOf(span: Span): number {
   return (span.end - span.start) / 60;
 }
 
-/** True when the two spans share any minute. */
+/** True when the two spans share any minute (half-open, so touching edges do not). */
 export function overlaps(a: Span, b: Span): boolean {
-  return a.start <= b.end && b.start <= a.end;
+  return a.start < b.end && b.start < a.end;
 }
 
 /** True when `inner` lies entirely inside `outer` (touching the edges is fine). */
