@@ -44,8 +44,9 @@ describe('overlaps', () => {
     expect(overlaps(toSpan('08:00', '10:00'), toSpan('12:00', '14:00'))).toBe(false);
   });
 
-  it('treats back-to-back spans as overlapping (they share the boundary minute)', () => {
-    expect(overlaps(toSpan('10:00', '12:00'), toSpan('12:00', '14:00'))).toBe(true);
+  it('treats back-to-back spans as free, since a span ends at its end minute (R2)', () => {
+    expect(overlaps(toSpan('10:00', '12:00'), toSpan('12:00', '14:00'))).toBe(false);
+    expect(overlaps(toSpan('12:00', '14:00'), toSpan('10:00', '12:00'))).toBe(false);
   });
 });
 
